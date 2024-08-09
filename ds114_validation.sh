@@ -1,5 +1,5 @@
 # Project: BIDSInspec
-## Objective: Select BIDS directory from bids-examples.git
+## Objective: Select BIDS directory from bids-examples.git and validate with BIDS validator
 # Modified: August 8, 2024 @ 9:08 PM by N.O.
 
 ## bids-examples.git repository was cloned to local
