@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-from bidsinspec import __version__
+from bidsinspec.__version__ import __version__
 from bidsinspec.workflows.report import ReportPipeline
 
 
