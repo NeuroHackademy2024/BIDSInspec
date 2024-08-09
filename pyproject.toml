@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bidsinspec"
-version = "0.1.0"
+version = "0.0.1"
 description = "Inspect your BIDS directory"
 authors = ["Ashley Ptinis <aptinis@gmail.com>", "Nancy Ortega <ortegane25@gmail.com>"]
 readme = "README.md"
@@ -16,6 +16,10 @@ nipype = "^1.8.6"
 [tool.poetry.group.dev.dependencies]
 black = "^24.8.0"
 flake8 = "^7.1.1"
+reorder-python-imports = "^3.13.0"
+
+[tool.poetry.scripts]
+bidsinspec = "bidsinspec.cli:main"
 
 [build-system]
 requires = ["poetry-core"]
