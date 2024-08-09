@@ -1,5 +1,6 @@
 # Project: BIDSInspec
 ## Objective: Select BIDS directory from bids-examples.git
+# Modified: August 8, 2024 @ 9:08 PM by N.O.
 
 ## bids-examples.git repository was cloned to local
 
@@ -25,30 +26,11 @@ bids-validator ds114 --config.ignore=99 --ignoreNiftiHeaders
     # Available tasks:  finger_foot_lips, covert_verb_generation, overt_word_repetition, line_bisection, overt_verb_generation
     # Available modalities: MRI
 
-                                                                        
+### Save this file
+
+### Commit to github repo
+git status # check what changes need to be commited 
+git add . # add the changes to working directory
+git commit -m "branch set up and bids validator test" # commit to repo                                                               
                                     
-
-
-
-
-
-
-
-
-# using Docker we can complete the BIDS validator
-Docker run -ti --rm -v /Users/nancy/neurohack24/BIDSInspec/ds114:/data:robids/validator /data
-
-
-
-
-
-### Git Push Steps
-Step 0: make new branch
-	git checkout -b <branchName>
-Step 1: make changes (edits, new file, etc)
-Step 2: stage changes for a commit
-	git add <filePath>
-	git add .
-Step 3: commit changes
-	git commit -m “messageHere”
-
+# done
